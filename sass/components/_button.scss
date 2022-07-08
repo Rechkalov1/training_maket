@@ -1,0 +1,26 @@
+// КНОПКИ ДЛЯ ГЕРОЯ ~~~~~~~~~~~~~~~~~~~~~
+.hero__button {
+  display: flex;
+  position: relative;
+  bottom: 300px;
+}
+.button {
+  font-family: $font-style;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 10px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #d41443;
+  border-radius: 20px;
+  color: #ffffff;
+  padding: 11px 23px;
+  border: none;
+}
+.button__color {
+  color: #d41443;
+  background-color: #ffffff;
+}
+// КНОПКИ ДЛЯ ГЕРОЯ ~~~~~~~~~~~~~~~~~~~~~

@@ -1,0 +1,56 @@
+.hero {
+  display: flex;
+  margin-top: 105px;
+}
+// Left hero sitebar
+
+.hero-left__title {
+  font-family: $font-style;
+
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 1.5;
+
+  color: #1c2323;
+}
+.hero-left__txt {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.5;
+  margin-top: 50px;
+  color: #404242;
+  margin-right: 71px;
+}
+.hero-left__button {
+  width: 271px;
+  height: 80px;
+  margin-top: 71px;
+  background: $main-color;
+  border-radius: 20px 20px 20px 0px;
+}
+.hero-left {
+  width: 743px;
+}
+.hero-left__button {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 38px;
+  /* identical to box height */
+  border: 0;
+  cursor: pointer;
+  color: #ffffff;
+}
+// Right hero sitebar
+.hero-right {
+  width: 50%;
+}
+.hero-right__background {
+  position: absolute;
+}
+.hero-right__main-background {
+  position: absolute;
+}
