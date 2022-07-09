@@ -1,4 +1,4 @@
-.main {
+.main-content {
   margin-top: 179px;
 }
 .main-title {
@@ -81,4 +81,29 @@
   height: 350px;
   background: #ccf0e6;
   border-radius: 0px 10px 10px 0px;
+}
+.main-gallery {
+  display: flex;
+  margin-top: 150px;
+}
+.main-gallery__about {
+  padding-left: 145px;
+}
+.main-gallery__about-title {
+  font-family: $font-style;
+  width: 487px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  margin-bottom: 50px;
+  color: #1c2323;
+}
+.main-gallery__about-txt {
+  font-family: $font-style;
+  width: 708px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.5;
+
+  color: #486958;
 }
