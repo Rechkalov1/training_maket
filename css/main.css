@@ -291,6 +291,7 @@ textarea {
   width: 1612px;
   padding-left: 20px;
   padding-right: 20px;
+  padding-bottom: 20px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -304,7 +305,7 @@ textarea {
 }
 
 .main-title {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 800;
   font-size: 70px;
   line-height: 1.5;
@@ -401,7 +402,7 @@ textarea {
 }
 
 .main-gallery__about-title {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   width: 487px;
   font-weight: 700;
   font-size: 40px;
@@ -411,7 +412,7 @@ textarea {
 }
 
 .main-gallery__about-txt {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   width: 708px;
   font-weight: 500;
   font-size: 30px;
@@ -425,7 +426,7 @@ textarea {
 }
 
 .hero-left__title {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 800;
   font-size: 70px;
   line-height: 1.5;
@@ -522,7 +523,7 @@ textarea {
 }
 
 .header-nav__item {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 25px;
   line-height: 1.52;
@@ -549,7 +550,7 @@ textarea {
   height: 80px;
   background: #58a9a5;
   border-radius: 15px;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   border: 0;
   font-weight: 500;
   font-size: 25px;
@@ -565,7 +566,7 @@ textarea {
 }
 
 .project-title {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 800;
   font-size: 70px;
   line-height: 1.5;
@@ -575,7 +576,7 @@ textarea {
 
 .project-txt {
   display: block;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-bottom: 161px;
   font-weight: 400;
   font-size: 30px;
@@ -615,7 +616,7 @@ textarea {
 }
 
 .project-thumb__title {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 1.5;
@@ -623,7 +624,7 @@ textarea {
 }
 
 .project-thumb__txt {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5;
@@ -631,7 +632,7 @@ textarea {
 }
 
 .testimonial-title {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 800;
   font-size: 70px;
   line-height: 1.5;
@@ -708,5 +709,97 @@ textarea {
   font-size: 25px;
   line-height: 38px;
   padding: 123px 107px 119px 0px;
+  color: #486958;
+}
+
+.testimonial-desc__subtxt {
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 38px;
+  color: #58a9a5;
+}
+
+.contacts {
+  display: flex;
+  margin-top: 240px;
+}
+
+.contacts-title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  color: #1c2323;
+}
+
+.contacts-txt {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 38px;
+  color: #486958;
+}
+
+.contacts-button {
+  border: none;
+  top: 0px;
+  left: 710px;
+  position: relative;
+  width: 271px;
+  height: 80px;
+  background: #58a9a5;
+  border-radius: 20px 20px 20px 0px;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 38px;
+  /* identical to box height */
+  color: #ffffff;
+}
+
+.contacts-form {
+  border-color: inherit;
+  box-sizing: border-box;
+  position: relative;
+  width: 1109.24px;
+  height: 450px;
+  border: 1px solid #486958;
+}
+
+.contacts-txt1 {
+  margin-left: 52px;
+  margin-top: 50px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 38px;
+  color: #486958;
+}
+.contacts-txt1::after {
+  position: relative;
+  left: -25px;
+  content: "";
+  display: inline-block;
+  border: 1px solid #000000;
+  border-color: inherit;
+  width: 1000px;
+  height: 0px;
+}
+
+.contacts-txt2 {
+  margin-left: 52px;
+  margin-top: 50px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 38px;
+  /* identical to box height */
   color: #486958;
 }/*# sourceMappingURL=main.css.map */
