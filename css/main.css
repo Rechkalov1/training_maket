@@ -543,9 +543,11 @@ textarea {
   color: #58a9a5;
 }
 .header-nav__item:hover {
+  font-weight: 700;
   color: #1dcf73;
 }
 .header-nav__item:active {
+  font-weight: 700;
   color: #1dcf73;
 }
 
@@ -553,10 +555,10 @@ textarea {
   width: 271px;
   height: 80px;
   background: #58a9a5;
+  font-weight: 700;
   border-radius: 15px;
   font-family: "Poppins", sans-serif;
   border: 0;
-  font-weight: 500;
   font-size: 25px;
   line-height: 1.52;
   margin-left: auto;
