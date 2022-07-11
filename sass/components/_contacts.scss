@@ -1,6 +1,6 @@
 .contacts {
   display: flex;
-  margin-top: 240px;
+  margin-top: 140px;
 }
 .contacts-title {
   font-family: $font-style;
@@ -86,4 +86,7 @@
   /* identical to box height */
 
   color: #486958;
+}
+.footer {
+  margin-bottom: 50px;
 }
