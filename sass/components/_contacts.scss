@@ -35,8 +35,14 @@
   font-size: 25px;
   line-height: 38px;
   /* identical to box height */
-
+  cursor: pointer;
   color: #ffffff;
+  &:hover {
+    background-color: #1dcf73;
+  }
+  &:active {
+    background-color: #1dcf73;
+  }
 }
 
 .contacts-form {

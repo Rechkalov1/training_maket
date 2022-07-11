@@ -5,6 +5,9 @@
   width: 37px;
   height: 45px;
 }
+.header-logo__img {
+  display: flex;
+}
 .header-logo__span {
   font-family: 'Poppins';
   font-style: normal;
@@ -54,9 +57,11 @@
   cursor: pointer;
   color: #404242;
   margin-left: 55px;
-  &:hover,
-  :active {
-    color: #58a9a5;
+  &:hover {
+    color: #1dcf73;
+  }
+  &:active {
+    color: #1dcf73;
   }
 }
 .header-nav__button {
@@ -72,4 +77,10 @@
   margin-left: auto;
   color: $white-color;
   cursor: pointer;
+  &:hover {
+    background-color: #1dcf73;
+  }
+  &:active {
+    background-color: #1dcf73;
+  }
 }

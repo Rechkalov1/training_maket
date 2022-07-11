@@ -29,6 +29,12 @@
   margin-top: 71px;
   background: $main-color;
   border-radius: 20px 20px 20px 0px;
+  &:hover {
+    background-color: #1dcf73;
+  }
+  &:active {
+    background-color: #1dcf73;
+  }
 }
 .hero-left {
   width: 743px;
@@ -43,6 +49,12 @@
   border: 0;
   cursor: pointer;
   color: #ffffff;
+  &:hover {
+    background-color: #1dcf73;
+  }
+  &:active {
+    background-color: #1dcf73;
+  }
 }
 // Right hero sitebar
 .hero-right {

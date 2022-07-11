@@ -75,6 +75,12 @@
   margin-top: 41px;
   color: #486958;
   border: none;
+  &:hover {
+    background-color: #1dcf73;
+  }
+  &:active {
+    background-color: #1dcf73;
+  }
 }
 .main-span {
   width: 549px;
